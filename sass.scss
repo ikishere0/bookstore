@@ -1,0 +1,52 @@
+$primary-background-color: rgb(59, 59, 59);
+$secondary-background-color: rgb(202, 241, 184);
+$primary-text-color: rgb(255, 255, 255);
+$secondary-text-color: rgb(249, 87, 0);
+$third-text-color: rgb(83, 249, 0);
+
+body {
+    background-color: $primary-background-color;
+    text-align: center;
+    color: $primary-text-color;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+a {
+    font-weight: bolder;
+    color: $secondary-text-color;
+    font-size: 1.5rem;
+
+    footer & {
+        color: $primary-text-color;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+}
+
+
+h1 {
+    color: $third-text-color;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+}
+
+div {
+    background-color: $secondary-background-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-bottom: 1rem;
+  }
+  
+img {
+    margin-bottom: 25px;
+  }
+
+footer {
+    display: grid;
+    grid-row-gap: 10px;
+    justify-content: center;
+}
